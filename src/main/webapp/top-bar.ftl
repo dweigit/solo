@@ -58,10 +58,9 @@
 
     #top #hideTop:hover {
         background-image: url("${staticServePath}/images/arrow-left.gif");
-        border-radius: 0;    
+        border-radius: 0;
     }
 </style>
-<div id="showTop"></div>
 <div id="top">
     <a href="https://github.com/b3log/solo" target="_blank" class="hover">
         Solo
