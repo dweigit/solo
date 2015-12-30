@@ -77,12 +77,15 @@
                                         ${article.articleCreateDate?string("yyyy-MM-dd HH:mm:ss")}&nbsp;&nbsp;
                                     </span>
                                     <a rel="nofollow" href="${servePath}${article.articlePermalink}#comments" class="left">
-                                        <span class="left commentIcon" title="${commentLabel}"></span>
-                                        <span class="left">${article.articleCommentCount}</span>&nbsp;&nbsp;
+                                        <span class="left icon-bubble2" title="${commentLabel}">
+                                        ${article.articleCommentCount}
+                                        </span>
                                     </a>
+                                    <span class="left">&nbsp;&nbsp;</span>
                                     <a rel="nofollow" href="${servePath}${article.articlePermalink}" class="left">
-                                        <span class="left browserIcon" title="${viewLabel}"></span>
-                                        <span id="articleViewCount">${article.articleViewCount}</span>
+                                        <span class="left icon-eye" title="${viewLabel}">
+                                        ${article.articleViewCount}
+                                        </span>
                                     </a>
                                 </div>
                                 <div class="clear"></div>
